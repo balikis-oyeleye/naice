@@ -1,30 +1,14 @@
-import {
-  Alert,
-  Button,
-  Image,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-import Welcome from './app/screens/welcome';
-import ViewImage from './app/screens/view-image';
-import AppText from './app/components/app-text';
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
 
-function App(): React.JSX.Element {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <AppText>njn</AppText>
+    <View>
+      <Text>App</Text>
     </View>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};
 
 export default App;
+
+const styles = StyleSheet.create({});
